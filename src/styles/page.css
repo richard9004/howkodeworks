@@ -1,0 +1,59 @@
+.breadcrumb-lmk {
+    color: #2495CE !important;
+    text-decoration: none !important;
+  }
+
+  .btn-custom {
+    background-color: white !important;
+    color: #2495CE !important;
+    border: 1px solid #2495CE !important;
+  }
+  
+  .btn-custom:hover {
+    background-color: #2495CE !important;
+    color: white !important;
+  }
+
+  .draggableMarkup {
+    position: fixed;
+    z-index: 1;
+  }
+  
+  .drop_area:hover .draggableMarkup {
+    z-index: 2;
+  }
+
+  .heading1, .heading2, .heading3, .heading4, .paragraph, .codeSnippet {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .heading1:hover, .heading2:hover, .heading3:hover, .heading4:hover, .paragraph:hover, .codeSnippet:hover {
+    transform: scale(1.05);
+  }
+
+  .heading1, .heading2, .heading3, .heading4 {
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .paragraph {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .codeSnippet {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+  

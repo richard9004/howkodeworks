@@ -1,0 +1,269 @@
+/* Custom CSS for dropdown menu */
+
+/* YourComponent.module.css */
+
+.home-page-btns {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #213343 !important;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+  border: 2px solid #213343;
+  font-weight: bold;
+}
+
+.home-page-btns:hover {
+  background-color: white !important;
+  color: #213343 !important;
+  border: 2px solid #213343 !important;
+}
+
+
+.dm {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .di {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .di:hover {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+
+  
+.disable {
+    pointer-events: none;
+    opacity: 0.0;
+    /* filter: grayscale(100%); */
+    /* Add any other styles you want to apply when the element is disabled */
+}
+
+.blocks-lmk:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.blocks-lmk {
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.outline-blue-button {
+    outline-color: #2495CE !important;
+    border-color: #2495CE !important;
+    background-color: #2495CE !important;
+    color: white !important;
+  }
+.link_styles{
+    color: #b6c7d6 !important;
+    font-weight: bold;
+}
+
+.footer-bg{
+  background-color:#213343 !important;
+}
+
+.invalid_err{
+    color: red;
+}
+.header_links{
+    color: #b6c7d6 !important;
+    font-weight: bold;
+    font-size: 16px !important;
+
+}
+
+.lmk_btn{
+    color: black !important;
+    font-weight: bold !important;
+    background-color: #2495CE !important;
+    border-color: #2495CE !important;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Barlow',sans-serif;
+    color: #1F2329;
+}
+
+.space-right{
+    margin-right: 5px;
+}
+
+ul{
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.footer_section_titles{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+    color:white !important;
+}
+.looped_div{
+  flex-grow: 1
+}
+.footer_links{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color:#b6c7d6 !important;
+}
+.custom-dropdown-menu{
+    margin-top: 15px !important;
+    
+}
+
+.custom-dropdown-item{
+    color:#2495CE !important;
+}
+
+.lmk-title{
+  color:#2495CE !important;
+}
+
+.lmk_sub_links{
+
+  text-decoration: none;
+}
+
+
+.popup {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-top: 3px;
+    z-index: 20000;
+    transform: translateX(-50%);
+    /* background-color: #212529; */
+    background-color: #213343; /* Adjust the last value (0.8) for transparency */
+    color: white;
+    padding: 60px 20px 20px; /* Added extra padding at the top */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.make_it_white{
+    color: white !important;
+}
+
+
+.search_category {
+    padding: 8px 12px; /* Add padding for better visual appearance */
+    border: 1px solid #ccc; /* Add a border to define the input field */
+    border-radius: 4px; /* Add rounded corners */
+    font-size: 16px; /* Set font size */
+    width: 250px; /* Set a specific width for the input field */
+    margin-bottom: 10px; /* Add some space below the input */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .search_category:focus {
+    outline: none; /* Remove the default outline when the input is focused */
+    border-color: #007bff; /* Change the border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow on focus */
+  }
+
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color:white
+  }
+  
+  .close-button:focus {
+    outline: none;
+  }
+
+  .iconBtns{
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: #2495CE;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search_category {
+    /* Your existing styles for search_category */
+  }
+
+  .drop-styles{
+    margin-top: 13px !important;
+    background-color: #213343 !important;
+  }
+  
+  .drop-item-styles {
+    color: white !important;
+    padding: 10px 15px; /* Add padding for better visual */
+    transition: background-color 0s; /* Set transition duration to 0s for an instant change */
+  }
+  
+  .drop-item-styles:hover {
+    background-color: #213343 !important;
+  }
+
+  .prof-drop{
+    margin-left: -10px;
+  }
+  
+  .content-dny{
+    font-size: 18px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+
+
+  /* Add this CSS to your stylesheets */
+.suggestion-list {
+  position: absolute; /* or 'fixed' depending on your layout needs */
+  z-index: 1000; /* Adjust as needed to ensure it appears above other elements */
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+}
+
+.suggestion-list-item {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Add these styles to your CSS */
+.popularLinks {
+  text-decoration: none; /* Remove underline */
+  color: #2495CE; /* Set the color to #2495CE */
+  font-weight: bold; /* Optional: Add bold font weight for emphasis */
+}
+
+.popularLinks:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #0e5a8c; /* Optional: Change color on hover */
+}
+
+
+
+

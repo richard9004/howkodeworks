@@ -1,0 +1,47 @@
+.elements {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .element {
+    background-color: #f5f5f5; /* Light Grey Background */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Nice Box Shadow */
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .element h1,
+  .element h2,
+  .element h3,
+  .element h4 {
+    margin-bottom: 10px;
+  }
+  
+  .element:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+
+.added_element {
+  background-color: #f5f5f5; /* Very light grey background */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.added_element .del_span {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  border: none;
+ 
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+/* Custom Pagination Styles */
+.pagination {
+    justify-content: center;
+}
+
+.pagination li.page-item {
+    margin: 0 4px;
+}
+
+.pagination li.page-item.active .page-link {
+    background-color: #2495CE;
+    border-color: #2495CE;
+    color:white;
+}
+
+.pagination li.page-item .page-link {
+    color: #2495CE;
+    border: 1px solid #2495CE;
+}
+
+.pagination li.page-item .page-link:hover {
+    background-color: #2495CE;
+    color: #fff;
+    border-color: #2495CE;
+}

@@ -1,0 +1,44 @@
+/* SidebarComponent.css */
+
+/* Sidebar Styles */
+#sidebar {
+ 
+  border-radius: 5px;
+  max-height:500px;
+
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff; /* Dark color for the toggler icon */
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #ffffff !important; /* Dark color for active link */
+}
+
+.submenu {
+  padding-left: 1rem;
+}
+
+
+/* Additional Bootstrap Overrides */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.submenu-spacing {
+  margin-left: 20px;
+  /* color: #ffffff !important; Slightly darker gray color for submenu items */
+}
+
+.mainmenu {
+  font-weight: 600 !important;
+  color: black !important;
+  /* color: #ffffff !important; Dark color for main menu items */
+}
